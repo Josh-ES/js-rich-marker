@@ -1,4 +1,4 @@
-RichMarker – A Google Maps JavaScript API utility library
+RichMarker – A Google Maps JavaScript API utility library (unofficial)
 ==============
 
 A library for using arbitrary DOM elements as map markers in the Google Maps JavaScript API v3.
