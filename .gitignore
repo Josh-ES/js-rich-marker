@@ -7,3 +7,6 @@
 *.iml
 out
 gen
+
+# Node system
+node_modules/

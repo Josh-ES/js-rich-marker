@@ -21,8 +21,6 @@
  * limitations under the License.
  */
 
-import 'core-js/shim';
-
 /**
  * A RichMarker that allows any HTML/DOM to be added to a map and be draggable.
  *
