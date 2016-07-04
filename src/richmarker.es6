@@ -21,6 +21,8 @@
  * limitations under the License.
  */
 
+import 'core-js/shim';
+
 /**
  * A RichMarker that allows any HTML/DOM to be added to a map and be draggable.
  *
@@ -31,6 +33,8 @@
 export class RichMarker extends google.maps.OverlayView {
   
   constructor(opt_options) {
+    super();
+
     var options = opt_options || {};
 
     /**
@@ -781,7 +785,7 @@ export class RichMarker extends google.maps.OverlayView {
  * RichMarker Anchor positions
  * @enum {number}
  */
-export var RichMarkerPosition = {
+export const RichMarkerPosition = {
   'TOP_LEFT': 1,
   'TOP': 2,
   'TOP_RIGHT': 3,
